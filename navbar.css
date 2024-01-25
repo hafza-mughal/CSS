@@ -1,0 +1,63 @@
+*{
+     box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+     
+}
+nav{
+    background: linear-gradient(#033747,#012733);
+    display: flex;
+    color: white;
+    border-color: black;
+    border: 3px solid;
+
+
+
+
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    align-self: center;
+    margin-left:25px ;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+.bar
+{
+    list-style: none;
+    padding-left: 500px;
+    padding-top: 9px;
+}
+
+.bar li
+{
+    display: inline;
+    margin: 15px;
+}
+.bar  li a{
+    font-size: 25px;
+    font-weight: 15px;
+    color: white;
+    transition: 0.9s linear;
+    text-decoration: none;
+    padding: 15px;
+    
+    
+}
+.bar li a:hover{
+    color: #ff8c69;
+  
+
+}
+ .moon img{
+    width:100% ;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
